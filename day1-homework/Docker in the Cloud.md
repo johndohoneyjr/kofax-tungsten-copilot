@@ -25,7 +25,7 @@ Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI
 - **Action:** Execute the Azure CLI command to log in.
 
 ```bash
-az login
+az login --use-device-code
 ```
 
 #### Step 4: Creating Azure Container Registry using ARM Template
